@@ -1,0 +1,136 @@
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.link {
+  color: #0b3c91;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #ea917a;
+  border-radius: 30%;
+  border: solid 2px #ea917a;
+  padding: 10px;
+}
+/* ////////////Header //////// */
+header .logo a {
+  font-size: 0.5rem;
+  align-items: start;
+  -ms-flex-item-align: start;
+}
+.logo {
+  width: 50px;
+}
+header {
+  position: sticky;
+  top: 0;
+  padding: 1rem 2rem;
+  /* box-shadow: 0 12px 28px 0 #fff8e3; */
+  display: flex;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  gap: 50px;
+  overflow-x: auto;
+  height: 100%;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  position: center;
+}
+a {
+  text-decoration: none;
+  color: #0b3c91;
+  font-size: 16px;
+  justify-content: space-between;
+  text-align: right;
+  font-family: "Anton", sans-serif;
+  font-weight: 600;
+}
+/* //////////Footer/////// */
+.sol {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin-left: 10%;
+  margin-top: -17%;
+}
+/* //////////////Forside //////////////// */
+.forside_billede {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: 10%;
+  margin-top: -17%;
+}
+/* /////////Om mig//////////////// */
+
+.cv_box {
+  background-color: #accae3;
+  padding-bottom: 600px;
+  padding-top: 10px;
+}
+/* ////////Tema 2 */
+
+.emnesite_box {
+  background-color: #accae3;
+  padding-bottom: 500px;
+  padding-top: 10px;
+}
+.website_box {
+  background-color: #accae3;
+  padding-bottom: 103px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.logoer_emne2 {
+  width: 20%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+.computer_web {
+  width: 100%;
+  height: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ////////Typografier//////// */
+h1 {
+  color: #fe630f;
+  font-weight: 600;
+  font-size: 100px;
+  margin-left: 15%;
+}
+h2 {
+  color: #0b3c91;
+  font-weight: 600;
+  font-size: 40px;
+}
+/* ///////////Animationer på ting ///////////// */
+.billede {
+  width: 400px;
+  height: 400px;
+  transition: transform 2s ease-in-out;
+}
