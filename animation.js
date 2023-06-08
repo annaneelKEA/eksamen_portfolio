@@ -1,13 +1,19 @@
-var billede = document.querySelector(".billede");
-var originalStørrelse = getComputedStyle(billede).getPropertyValue("transform");
+var billeder = document.querySelectorAll(".billede");
 
-function forstør() {
-  billede.style.transform = "scale(1.2)";
+billeder.forEach(function (billede) {
+  billede.addEventListener("mouseover", function () {
+    forstør(billede);
+  });
+
+  billede.addEventListener("mouseout", function () {
+    nulstil(billede);
+  });
+});
+
+function forstør(element) {
+  element.style.transform = "scale(1.2)";
 }
 
-function nulstil() {
-  billede.style.transform = originalStørrelse;
+function nulstil(element) {
+  element.style.transform = "scale(1)";
 }
-
-billede.addEventListener("mouseover", forstør);
-billede.addEventListener("mouseout", nulstil);
