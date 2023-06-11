@@ -9,7 +9,7 @@ main {
   margin-left: 10px;
   margin-right: 10px;
 }
-.link {
+link {
   color: #0b3c91;
   font-weight: 600;
   font-size: 20px;
@@ -24,14 +24,12 @@ header .logo a {
   align-items: start;
   -ms-flex-item-align: start;
 }
-.logo {
+logo {
   width: 20px;
 }
 header {
-  /* position: sticky; */
   top: 0;
   padding: 1rem 2rem;
-  /* box-shadow: 0 12px 28px 0 #fff8e3; */
   display: flex;
   margin-bottom: 10px;
   background-color: white;
@@ -59,7 +57,6 @@ ul {
   position: center;
   color: #0b3c91;
 }
-
 a {
   text-decoration: none;
   color: #0b3c91;
@@ -67,8 +64,9 @@ a {
   justify-content: space-between;
   text-align: right;
   font-family: "Anton", sans-serif;
-  font-weight: 600;
+  font-weight: 90;
 }
+
 /* //////////Footer/////// */
 .sol {
   width: 30%;
@@ -97,7 +95,7 @@ a {
 
 .emnesite_box {
   background-color: #accae3;
-  padding-bottom: 500px;
+
   padding-top: 10px;
 }
 .website_box {
@@ -219,18 +217,6 @@ a {
   margin-right: auto;
   margin-top: -12%;
 }
-.spil_box {
-  background-color: #accae3;
-  padding-bottom: 170px;
-  padding-top: 11px;
-  width: 33%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -184px;
-  background-clip: padding-box;
-  border-radius: 48%;
-}
 
 .tekst_spil {
   color: black;
@@ -244,19 +230,15 @@ a {
   margin-top: 10%;
 }
 .spil_css_2 {
-  width: 50%;
+  width: 57%;
   height: 96%;
   margin-top: 6.5%;
 }
 .baby_1 {
-  width: 13%;
-  margin-right: 20px;
-  margin-top: 20px;
+  width: 100%;
 }
 .baby_2 {
-  width: 13%;
-  margin-right: 80px;
-  margin-top: 80px;
+  width: 100%;
 }
 .kodning_billeder_1 {
   width: 102%;
