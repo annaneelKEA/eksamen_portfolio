@@ -5,6 +5,10 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+main {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .link {
   color: #0b3c91;
   font-weight: 600;
@@ -21,10 +25,10 @@ header .logo a {
   -ms-flex-item-align: start;
 }
 .logo {
-  width: 50px;
+  width: 20px;
 }
 header {
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   padding: 1rem 2rem;
   /* box-shadow: 0 12px 28px 0 #fff8e3; */
@@ -53,7 +57,9 @@ nav {
 
 ul {
   position: center;
+  color: #0b3c91;
 }
+
 a {
   text-decoration: none;
   color: #0b3c91;
@@ -71,6 +77,7 @@ a {
   margin-left: 10%;
   margin-top: -17%;
 }
+
 /* //////////////Forside //////////////// */
 .forside_billede {
   width: 80%;
@@ -94,7 +101,7 @@ a {
   padding-top: 10px;
 }
 .website_box {
-  background-color: #accae3;
+  /* background-color: #accae3; */
   padding-bottom: 103px;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -111,16 +118,164 @@ a {
 .computer_web {
   width: 100%;
   height: auto;
-
   margin-left: auto;
   margin-right: auto;
 }
+.computer_web_stor {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image_container_2 {
+  position: relative;
+  display: inline-block;
+}
+
+.image_link_2 {
+  position: absolute;
+  top: 81%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  background-color: none;
+  padding: 8px 0px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: whitesmoke;
+  border: solid 4px black;
+  padding: 10px;
+}
+
+.image_link_2:hover {
+  background-color: #accae3;
+}
+
+/* ////////////Tema 3/////////// */
+
+.billede_3 {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  transition: transform 0.1s linear;
+}
+.billede_4 {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+}
+.pitch_box {
+  width: 82%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+.billede_pitch {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image_container {
+  position: relative;
+  display: inline-block;
+}
+
+.image_link {
+  position: absolute;
+  top: 28%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  background-color: none;
+  color: #f2e546;
+  padding: 8px 0px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.image_link:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* /////////Tema 4////// */
+.spil_billede {
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.joystick {
+  width: 13%;
+  height: 150%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -12%;
+}
+.spil_box {
+  background-color: #accae3;
+  padding-bottom: 170px;
+  padding-top: 11px;
+  width: 33%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -184px;
+  background-clip: padding-box;
+  border-radius: 48%;
+}
+
+.tekst_spil {
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-left: 20px;
+  margin-right: 42px;
+  font-size: 11px;
+}
+.spil_css_1 {
+  width: 100%;
+  margin-top: 10%;
+}
+.spil_css_2 {
+  width: 50%;
+  height: 96%;
+  margin-top: 6.5%;
+}
+.baby_1 {
+  width: 13%;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.baby_2 {
+  width: 13%;
+  margin-right: 80px;
+  margin-top: 80px;
+}
+.kodning_billeder_1 {
+  width: 102%;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.kodning_billeder_2 {
+  width: 100%;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+/* ///////Tema 5////////// */
 
 /* ////////Typografier//////// */
 h1 {
   color: #fe630f;
   font-weight: 600;
-  font-size: 100px;
+  font-size: 73px;
   margin-left: 15%;
 }
 h2 {
@@ -128,9 +283,23 @@ h2 {
   font-weight: 600;
   font-size: 40px;
 }
+h3 {
+  color: #fe630f;
+  font-weight: 100;
+  font-size: 20px;
+}
+p {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* ///////////Animationer på ting ///////////// */
 .billede {
   width: auto;
   height: auto;
+  transition: transform 2s ease-in-out;
+}
+.billede_pitch {
   transition: transform 2s ease-in-out;
 }
