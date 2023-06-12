@@ -9,7 +9,7 @@ main {
   margin-left: 10px;
   margin-right: 10px;
 }
-link {
+.link_2 {
   color: #0b3c91;
   font-weight: 600;
   font-size: 20px;
@@ -17,6 +17,14 @@ link {
   border-radius: 30%;
   border: solid 2px #ea917a;
   padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.tilbage_knap {
+  width: 7%;
+  margin-left: 2px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 /* ////////////Header //////// */
 header .logo a {
@@ -24,9 +32,7 @@ header .logo a {
   align-items: start;
   -ms-flex-item-align: start;
 }
-logo {
-  width: 20px;
-}
+
 header {
   top: 0;
   padding: 1rem 2rem;
@@ -88,14 +94,14 @@ a {
 
 .cv_box {
   background-color: #accae3;
-  padding-bottom: 600px;
+  padding-bottom: 276px;
   padding-top: 10px;
 }
 /* ////////Tema 2 */
 
 .emnesite_box {
   /* background-color: #accae3; */
-  padding-top: 10px;
+  padding-top: 5px;
 }
 .website_box {
   /* background-color: #accae3; */
@@ -304,6 +310,8 @@ h2 {
   color: #0b3c91;
   font-weight: 600;
   font-size: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 h3 {
   color: #fe630f;
@@ -313,8 +321,8 @@ h3 {
 p {
   color: black;
   font-family: "Times New Roman", Times, serif;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 /* ///////////Animationer på ting ///////////// */
 .billede {
