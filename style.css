@@ -94,8 +94,7 @@ a {
 /* ////////Tema 2 */
 
 .emnesite_box {
-  background-color: #accae3;
-
+  /* background-color: #accae3; */
   padding-top: 10px;
 }
 .website_box {
@@ -151,7 +150,40 @@ a {
 .image_link_2:hover {
   background-color: #accae3;
 }
-
+/* ////////Protjekt ////// */
+.protjekt_computer {
+  width: 80%;
+}
+.grid_protjekt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 5%;
+  position: absolute;
+  top: 28%;
+  left: 25%;
+  padding: 0 5% 0 5%;
+}
+.grid_tema2 {
+  grid-column: 1;
+  grid-row: 1;
+  width: 30%;
+}
+.grid_tema3 {
+  grid-column: 2;
+  grid-row: 1;
+  width: 30%;
+}
+.grid_tema4 {
+  grid-column: 1;
+  grid-row: 2;
+  width: 30%;
+}
+.grid_tema5 {
+  grid-column: 2;
+  grid-row: 2;
+  width: 30%;
+}
 /* ////////////Tema 3/////////// */
 
 .billede_3 {
@@ -252,6 +284,11 @@ a {
 }
 
 /* ///////Tema 5////////// */
+
+.linje {
+  border-right: #fe630f 1px solid;
+  padding-right: 85px;
+}
 
 /* ////////Typografier//////// */
 h1 {
