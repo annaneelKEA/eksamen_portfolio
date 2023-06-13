@@ -168,6 +168,19 @@
     margin-left: auto;
     transition: transform 0.1s linear;
   }
+  .image_link {
+    position: absolute;
+    top: 18%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    background-color: none;
+    color: #f2e546;
+    padding: 8px 0px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: "Noto Serif", serif;
+  }
   /* //////Emne 4 ///// */
   .grid_spil {
     display: grid;
